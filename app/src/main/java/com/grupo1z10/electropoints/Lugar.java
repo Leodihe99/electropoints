@@ -14,6 +14,9 @@ public class Lugar {
 
     //Constructor
     public Lugar() {
+        fecha = System.currentTimeMillis();
+        posicion = new GeoPunto(0.0,0.0);
+        tipoLugar = TipoLugar.OTROS;
     }
 
     public Lugar(String nombre, String direccion,
