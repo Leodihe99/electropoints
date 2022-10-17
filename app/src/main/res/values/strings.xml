@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Electropoints</string>
-    <string name="mensaje_fab"> Clic en el botón fab</string>
-    <string name="accion_mostrar">Mostrar Lugares</string>
+    <string name="mensaje_fab" translatable="false"> Clic en el botón fab</string>
+    <string name="accion_mostrar" translatable="false">Mostrar Lugares</string>
     <string name="accion_preferencias">Preferencias</string>
-    <string name="accion_acerca_de">Acerca de </string>
+    <string name="accion_acerca_de" translatable="false">Acerca de </string>
     <string name="accion_salir">Salir</string>
     <string name="action_settings">Ajustes</string>
     <string name="comentario">Comentario</string>

@@ -1,9 +1,12 @@
-package com.grupo1z10.electropoints;
+package com.grupo1z10.electropoints.datos;
+
+import com.grupo1z10.electropoints.modelo.Lugar;
+import com.grupo1z10.electropoints.modelo.TipoLugar;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class LugaresLista implements RepositorioLugares{
+public class LugaresLista implements RepositorioLugares {
 
     protected List<Lugar> listaLugares;
 

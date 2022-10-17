@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Electropoints</string>
+    <string name="accion_preferencias">Preferences</string>
+    <string name="accion_salir">Exit</string>
+    <string name="action_settings">Settings</string>
+    <string name="comentario">Comment</string>
+    <string name="nombre">Name</string>
+    <string name="identificar_el_lugar">Place</string>
+    <string name="tipo_lugar">Type_place</string>
+    <string name="direccion">Address</string>
+    <string name="direccion_lugar">Address_place</string>
+    <string name="telefono">Telephone</string>
+    <string name="tel_contacto">Contact Telephone</string>
+    <string name="url">URL</string>
+    <string name="web">Web</string>
+    <string name="notas">Notes</string>
+</resources>

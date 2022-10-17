@@ -1,4 +1,4 @@
-package com.grupo1z10.electropoints;
+package com.grupo1z10.electropoints.modelo;
 
 import java.util.Objects;
 

@@ -1,4 +1,6 @@
-package com.grupo1z10.electropoints;
+package com.grupo1z10.electropoints.datos;
+
+import com.grupo1z10.electropoints.modelo.Lugar;
 
 public interface RepositorioLugares {
 

@@ -1,4 +1,7 @@
-package com.grupo1z10.electropoints;
+package com.grupo1z10.electropoints.modelo;
+
+import com.grupo1z10.electropoints.modelo.GeoPunto;
+import com.grupo1z10.electropoints.modelo.TipoLugar;
 
 public class Lugar {
     private String nombre;

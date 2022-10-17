@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".Aplicacion"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,7 +14,7 @@
         android:theme="@style/Theme.Electropoints.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".presentacion.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,6 +26,19 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name=".presentacion.AcercaDeActivity"
+            android:label="@string/accion_acerca_de"
+            android:theme="@style/Theme.AppCompat.Light.Dialog">
+        </activity>
+        <activity android:name=".presentacion.VistaLugarActivity"
+            android:label="Vista Lugar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".presentacion.EdicionLugarActivity"
+            android:label="Edición lugar"
+            android:screenOrientation="portrait">
+        </activity>
+
     </application>
 
 </manifest>
